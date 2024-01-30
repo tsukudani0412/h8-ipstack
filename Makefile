@@ -5,14 +5,14 @@ ADDNAME = $(ARCH)-
 
 AR			= $(BINDIR)/$(ADDNAME)ar
 AS			= $(BINDIR)/$(ADDNAME)as
-CC			= $(BINDIR)/$(ADDNAME)cc
+CC			= $(BINDIR)/$(ADDNAME)gcc
 LD			= $(BINDIR)/$(ADDNAME)ld
 NM			= $(BINDIR)/$(ADDNAME)nm
 OBJCOPY	= $(BINDIR)/$(ADDNAME)objcopy
 OBJDUMP	= $(BINDIR)/$(ADDNAME)objdump
 STRIP  	= $(BINDIR)/$(ADDNAME)strip
 
-H8WRITE	= ../tools/h8write/h8write
+H8WRITE	= ./tools/h8write
 
 H8WRITE_SERDEV = /dev/ttyUSB0
 
